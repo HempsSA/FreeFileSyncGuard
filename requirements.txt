@@ -1,6 +1,0 @@
-customtkinter
-schedule
-pystray
-Pillow
-watchdog
-psutil

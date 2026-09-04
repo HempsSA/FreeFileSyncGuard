@@ -1,16 +1,16 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-dist/
-build/
-*.egg
-
-# SyncGuard runtime data
+# SyncGuard runtime data (regenerable / machine-local)
 syncguard_cache/
 syncguard_jobs.json
 syncguard_jobs.json.bak
+*.corrupt-*
+
+# .NET (C# port in csharp/)
+bin/
+obj/
+TestResults/
+publish/
+*.user
+.vs/
 
 # IDE
 .vscode/
@@ -24,11 +24,3 @@ Thumbs.db
 
 # IDE / tool state
 .freebuff/
-
-# .NET (C# port in csharp/)
-bin/
-obj/
-TestResults/
-publish/
-*.user
-.vs/
