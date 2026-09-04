@@ -24,3 +24,11 @@ Thumbs.db
 
 # IDE / tool state
 .freebuff/
+
+# .NET (C# port in csharp/)
+bin/
+obj/
+TestResults/
+publish/
+*.user
+.vs/
